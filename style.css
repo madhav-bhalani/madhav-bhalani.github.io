@@ -168,7 +168,7 @@ footer {
 .aboutimg{
   border: none;
   border-radius: 5%;
-  width: 45%;
+  width: 60%;
   height: 100%;
   display: block;
   margin-left: auto;
@@ -223,4 +223,13 @@ footer {
 
 .skillsimg{
   width: 90%;
+}
+
+@media (max-width: 600px) {
+  .footheading{
+    font-size: x-large;
+  }
+  .footitm{
+    font-size: small;
+  }
 }
