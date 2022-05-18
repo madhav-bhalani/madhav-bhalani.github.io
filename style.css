@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,6 +20,7 @@ button,
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
+  font-weight: bold;
 }
 
 header {
@@ -47,7 +49,7 @@ header {
 
 .nav_links li a:hover {
   color: rgb(79, 200, 211);
-  text-decoration: underline #edf0f1;
+  /* text-decoration: underline #edf0f1; */
 }
 
 .active {
@@ -137,6 +139,7 @@ footer {
   color: #24252a;
   background-color: rgb(79, 200, 211);
   margin-top: 3%;
+  font-weight: bold;  
 }
 
 .footitm {
@@ -157,5 +160,26 @@ footer {
     text-align: center;
     color: rgb(79, 200, 211);
     text-decoration: underline #edf0f1;
+    text-underline-position: under;
+    /* border-bottom: solid #edf0f1; */
     font-family: "Montserrat", sans-serif;
+}
+
+.aboutimg{
+  border: none;
+  border-radius: 5%;
+  width: 45%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-desc{
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+}
+
+.about-highlight{
+  color: rgb(79, 200, 211);;
 }
