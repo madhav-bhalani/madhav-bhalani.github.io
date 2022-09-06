@@ -5,11 +5,11 @@
   box-sizing: border-box;
   /* margin: 0;
     padding: 0; */
-  background-color: #24252a;
+  background-color: #262322;
 }
 
 hr {
-  border: 1px solid rgb(79, 200, 211);
+  border: 1px solid #f2e5d7;
 }
 
 li,
@@ -17,8 +17,9 @@ a,
 button,
 .heading {
   font-family: "Montserrat", sans-serif;
+  /* font-family: Helvetica, Sans-Serif; */
   font-size: 16px;
-  color: #edf0f1;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,20 +49,20 @@ header {
 }
 
 .nav_links li a:hover {
-  color: rgb(79, 200, 211);
-  /* text-decoration: underline #edf0f1; */
+  color: #f2e5d7;
+  /* text-decoration: underline white; */
 }
 
 .active {
-  color: rgb(79, 200, 211);
-  text-decoration: underline #edf0f1;
+  color: #f2e5d7;
+  text-decoration: underline white;
 }
 
 button {
     position: inherit;
   font-size: large;
-  background-color: rgb(79, 200, 211);
-  color: #24252a;
+  background-color: #f2e5d7;
+  color: #262322;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -82,7 +83,7 @@ button:hover {
   padding-top: 5%;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
-  color: #edf0f1;
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -106,13 +107,13 @@ button:hover {
 }
 
 .headingname {
-  color: rgb(79, 200, 211);
+  color: #f2e5d7;
 }
 
 .mailbtn {
   font-size: x-large;
-  background-color: rgb(79, 200, 211);
-  color: #24252a;
+  background-color: #f2e5d7;
+  color: #262322;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -136,14 +137,14 @@ footer {
   justify-content: center;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
-  color: #24252a;
-  background-color: rgb(79, 200, 211);
+  color: #262322;
+  background-color: #f2e5d7;
   margin-top: 3%;
   font-weight: bold;  
 }
 
 .footitm {
-  background-color: rgb(79, 200, 211);
+  background-color: #f2e5d7;
   padding-bottom: 1%;
 }
 
@@ -151,17 +152,17 @@ footer {
   font-size: xx-large;
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: rgb(79, 200, 211);
+  background-color: #f2e5d7;
 }
 
 
 .aboutheading{
     margin-top: 2%;
     text-align: center;
-    color: rgb(79, 200, 211);
-    text-decoration: underline #edf0f1;
+    color: #f2e5d7;
+    text-decoration: underline white;
     text-underline-position: under;
-    /* border-bottom: solid #edf0f1; */
+    /* border-bottom: solid white; */
     font-family: "Montserrat", sans-serif;
 }
 
@@ -181,7 +182,7 @@ footer {
 }
 
 .about-highlight{
-  color: rgb(79, 200, 211);;
+  color: #f2e5d7;
 }
 
 .skillscont{
@@ -208,11 +209,11 @@ footer {
   padding-left: 2%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color:#24252a;
+  background-color:#262322;
   border-radius: 5px;
   font-size: medium;
   font-weight: bold;
-  box-shadow: 0 4px 25px rgba(79, 200, 211, 0.15);
+  box-shadow: 0 4px 25px rgb(242, 229, 215, 0.325);
   display: flex;
   align-items: center;
 }
