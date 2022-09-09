@@ -13,7 +13,7 @@ document.write(`
 `)
 
 console.log(location.pathname)
-if(location.pathname === "/index.html"){
+if(location.pathname === "/index.html" || location.pathname === "/"){
   let activeLink = document.getElementById("home_link")
   activeLink.className = "nav_links active"
 }
